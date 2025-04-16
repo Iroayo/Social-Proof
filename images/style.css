@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body{
+    background-image: url(./bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'League Spartan', League Spartan;
+}
+
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forbody{
+    margin-right: 130px;
+}
+
+.forh1{
+    margin-bottom: 30px;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    line-height: 0.9;
+}
+
+#h1{
+    font-size: 60px;
+}
+
+.forp{
+    margin-bottom: 70px;
+}
+
+h1{
+    color:  hsl(300, 53%, 21%);
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#we{
+    color:  hsl(303, 10%, 53%);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 15px;
+    margin-left: 0;
+    font-weight: 500;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.forstars{
+    margin-left: 100px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    margin-bottom: 15px;
+}
+
+p{
+    color:  hsl(300, 53%, 21%);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.report{
+    margin-left: 60px;
+}
+
+.best{
+    margin-left: 120px;
+}
+
+#testimony{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.img{
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.individual{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.verified{
+    margin-top: -30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: hsl(333, 40%, 55%);
+}
+
+.text{
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 20px;
+    color:  hsl(0, 0%, 91%);
+}
+
+.buyer{
+    color: hsl(333, 50%, 58%);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.testimony{
+    background-color:  hsl(300, 43%, 22%);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.testimony1{
+    background-color:  hsl(300, 43%, 22%);
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 180px;
+
+}
+
+.testimony2{
+    background-color:  hsl(300, 43%, 22%);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height: 170px;
+}
